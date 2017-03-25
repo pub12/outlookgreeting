@@ -1,12 +1,12 @@
-'Copy and paste this code into outlook
+'Copy and paste this code into the macro view of outloolk
 
 Option Explicit
 Private WithEvents oExpl As Explorer
 Private WithEvents oItem As MailItem
 Private bDiscardEvents As Boolean
  
-Private Const strGreeting As String = "Hi "
-Private Const strSignoff As String = "Thanks, Pubs."
+Private Const strGreeting As String = "Hi "             'Your greeting
+Private Const strSignoff As String = "Thanks, Pubs."    'Change this to your own signature - or remove this if you have automatic signature
  
  
 Dim oResponse As MailItem
